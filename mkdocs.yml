@@ -4,6 +4,11 @@ theme:
   name: material
   features:
     - navigation.footer
+    - navigation.sections
+    - navigation.path
+    - navigation.indexes
+    - toc.integrate
+    - navigation.top
   language: en
 
 extra:
@@ -17,3 +22,4 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - tables
+  - footnotes

@@ -8,18 +8,27 @@
 * Make it all easily deployable and as "highly available" as possible for a homelab
 
 ## Feature Checklist
+- [ ] SSO
+- [ ] System monitoring
+- [ ] GitOps management
+- [ ] Power monitoring and management
+- [ ] Automated node creation/provisioning
+- [ ] Service tunnel
+- [ ] Distributed storage
 
-## Process
 
-- [ ] Stage 0: Prep
-    - [x] Set up rack with switch, UPS
-    - [ ] Move existing server
-    - [x] Move security
-    - [ ] Move POE swith and devices to rack
-    - [ ] Set up 3D printed rack mount for HP mini pcs
-    - [ ] Set up 3D printed rack mount for Dell SFF
-    - [ ] Install Proxmox on worker nodes
-    - [ ] 
-- [ ] Stage 1: MVP
-    - [ ] Build router on HP 600 G3 (SFF)
-    - [ ] Port full home network over to OPNsense
+## Software
+- [OPNsense]() for routing
+- [TrueNAS]() for networked storage
+- [Proxmox]() For virtualization on nodes
+
+## K8s Apps
+- [Homebridge]() for HomeKit control of _most_ smart devices
+- [Zigbee2MQTT]() for MQTT control of Zigbee devices[^1]
+- [Zwavejs2MQTT]() for MQTT control of Zwave devices[^1]
+- [Grafana]() for dashboards
+- [Prometheus]() for monitoring
+- [InfluxDB]() for storage
+- [Omada Controller]() for AP management
+
+[^1]: These applications will need to be stuck to the nodes with the repective Zwave and Zigbee USB dongle!

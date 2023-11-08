@@ -1,0 +1,19 @@
+site_name: homelab
+repo_url: https://github.com/JohnFodero/homelab
+theme:
+  name: material
+  features:
+    - navigation.footer
+  language: en
+
+extra:
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/john-fodero/
+    - icon: fontawesome/brands/github
+      link: https://github.com/JohnFodero
+
+markdown_extensions:
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - tables

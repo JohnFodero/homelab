@@ -15,20 +15,22 @@
 - [ ] Automated node creation/provisioning
 - [ ] Service tunnel
 - [ ] Distributed storage
+- [ ] DNS for easy local domain names
+- [ ] A nice dashboard to link everything together
 
 
 ## Software
-- [OPNsense]() for routing
-- [TrueNAS]() for networked storage
-- [Proxmox]() For virtualization on nodes
+- [OPNsense](https://opnsense.org) for routing
+- [TrueNAS](https://www.truenas.com) for networked storage and backups (s3, NFS)
+- [Proxmox](https://www.proxmox.com) For virtualization on nodes
 
 ## K8s Apps
-- [Homebridge]() for HomeKit control of _most_ smart devices
-- [Zigbee2MQTT]() for MQTT control of Zigbee devices[^1]
-- [Zwavejs2MQTT]() for MQTT control of Zwave devices[^1]
-- [Grafana]() for dashboards
-- [Prometheus]() for monitoring
-- [InfluxDB]() for storage
-- [Omada Controller]() for AP management
+- [Homebridge](https://homebridge.io) for HomeKit control of _most_ smart devices
+- [Zigbee2MQTT](https://www.zigbee2mqtt.io) for MQTT control of Zigbee devices[^1]
+- [Zwavejs2MQTT](https://github.com/zwave-js/zwave-js-ui) for MQTT control of Zwave devices[^1]
+- [Grafana](https://grafana.com) for dashboards
+- [Prometheus](https://prometheus.io) for monitoring
+- [InfluxDB](https://www.influxdata.com) for storage
+- [Omada Controller](https://www.tp-link.com/us/business-networking/omada-sdn-controller/omada-software-controller/) for AP management
 
-[^1]: These applications will need to be stuck to the nodes with the repective Zwave and Zigbee USB dongle!
+[^1]: These applications will need to be stuck to the nodes with attached Zwave and Zigbee USB dongles!

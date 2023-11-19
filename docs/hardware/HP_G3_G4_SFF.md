@@ -1,0 +1,3 @@
+![hp mini pc](../media/hp_mini.png "HP G3/G4")
+
+I picked up about 40 of these from a local source and sold most of them, but kept a few for this lab. These can be had for $30 USD these days, and mine have 8GB of DDR4 RAM and some used 256GB assorted brand NVMe drives. I have dedicated (2) G3 600 i3-6100T for routing and storage, and (2) G3 400 i5-6500T (pictured) as general purpose server nodes. I'll add more details here later, but these typically only draw 15W and are a great low-power, affordable option for homelabs. 

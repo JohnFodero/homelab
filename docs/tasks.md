@@ -22,9 +22,11 @@
 
 ## Stage 3: Add new services
 - [ ] [New services go here]
+- [ ] Learn website dev through selfhosted webpage
 
 ## Stage X: Bonus
 - [ ] Get disk shelf (that I got for free) working
 - [ ] Design/implement power management
     - [ ] Implement device safe shutdown during power loss
     - [ ] Implement "peak pricing" usage reduction and battery backup cycle
+- [ ] Set up self hosted GitHub agents

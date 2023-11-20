@@ -5,15 +5,16 @@
 - [x] Set up rack with switch, UPS
 - [ ] Build router on HP 600 G3 (SFF)
 - [ ] Set up a few devices in new network
-- [ ] Design 3D printed rack mount for HP SFF PCs
+- [x] Design 3D printed rack mount for HP SFF PCs
 - [ ] Design 3D printed rack mount for Dell SFF
     
 ## Stage 1: MVP :man_standing_tone3:
-- [ ] Install Proxmox on worker nodes
-- [ ] Port full home network over to OPNsense
+- [ ] Install Proxmox on "general purpose" nodes (2x i5 G3 400)
+- [ ] Port full home network over to OPNsense router
 - [ ] Set up TrueNAS on HP SFF
 - [ ] Set up local DNS
 - [ ] Set up k3s deployment
+- [ ] Configure Longhorn for cluster storage (configs, etc. can be used here)
 
 ## Stage 2: Automate/Scale :woman_walking_tone5:
 - [ ] Automate worker node deployment

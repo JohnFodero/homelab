@@ -1,6 +1,6 @@
 # Start Here
 
-## Goals
+## Goals :goal:
 * Learn stuff, hands-on, like Kubernetes, GitOps, networking (SSL, VLANs, DNS, DHCP), and routing (hardware, OSS)
 * Keep it low(ish) power, with backups and smart server power control
 * Have access to VMs for prototyping and development
@@ -24,7 +24,7 @@
 - [TrueNAS](https://www.truenas.com) for networked storage and backups (s3, NFS)
 - [Proxmox](https://www.proxmox.com) For virtualization on nodes
 
-## K8s Apps
+## K8s Apps :material-kubernetes:
 - [Homebridge](https://homebridge.io) for HomeKit control of _most_ smart devices
 - [Zigbee2MQTT](https://www.zigbee2mqtt.io) for MQTT control of Zigbee devices[^1]
 - [Zwavejs2MQTT](https://github.com/zwave-js/zwave-js-ui) for MQTT control of Zwave devices[^1]

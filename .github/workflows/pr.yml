@@ -1,6 +1,6 @@
 name: pr 
 on:
-  pull_Request:
+  pull_request:
     types:
       - opened
       - synchronize

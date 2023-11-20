@@ -1,7 +1,9 @@
 name: pr 
 on:
-  pull_request_review:
-    types: [submitted]
+  pull_Request:
+    types:
+      - opened
+      - synchronize
 
 jobs:
   build:

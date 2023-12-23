@@ -1,0 +1,3 @@
+![hp mini pc](../media/hp_mini.png "HP G3/G4")
+
+I picked up about 40 of these from a local source and sold most of them, but kept a few for this lab. They can be had for about $30 USD, and mine have 8GB of DDR4 RAM and some used 256GB assorted brand NVMe drives. I have dedicated (2) G3 600 i3-6100T for routing and storage, and (2) G3 400 i5-6500T (pictured) as general purpose server nodes. This formfactor (laptop hardware in a tiny desktop chassis) is popular for homelabs, so my main reasoning for using them is 1. they are cheap and 2. typically only draw 15W.

@@ -3,7 +3,7 @@
 ## Stage 0: Prep :woman_in_lotus_position_tone1:
 
 - [x] Set up rack with switch, UPS
-- [ ] Build router on HP 600 G3 (SFF)
+- [x] Build router on HP 600 G3 (SFF)
 - [x] Set up a few devices in new network
 - [x] Design 3D printed rack mount for HP SFF PCs
 - [ ] Design 3D printed rack mount for Dell SFF
@@ -17,8 +17,9 @@
 - [x] Set up TrueNAS on HP SFF
 - [x] Set up local DNS
 - [ ] Set up k3s deployment
-    - [ ] Use Ansible to configure clients/workers
+    - [x] Use Ansible to configure clients/workers
     - [ ] Do some test deployments
+        - [ ] Mosquitto
     - [ ] Set up monitoring (unsure what service to use)
 
 ## Stage 2: Automate/Scale :woman_walking_tone5:

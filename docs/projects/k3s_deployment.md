@@ -26,7 +26,7 @@ There are so many great resources online, ranging from low-level, piece-by-piece
 2. [Set up Ansible](https://technotim.live/posts/ansible-automation/)
     
     Notes:
-    - I utilized the [site.yml](../../ansible/site.yml) and [reset.yml](../../ansible/reset.yml) quite a bit when setting up my nodes. Between updating memory allocation, disk size and master/worker node allocation, having a method to reset the cluster, update the [hosts.ini](../../ansible/inventory/k3s_cluster_01/hosts.example.ini). 
+    - I utilized the [site.yml](../../ansible/site.yml) and [reset.yml](../../ansible/reset.yml) quite a bit when setting up my nodes. Between updating memory allocation, disk size and master/worker node allocation, having a method to reset the cluster, update the [hosts.ini](../../ansible/inventory/k3s_cluster_01/hosts.example.ini), this came in handy.
 
 3. [Set up K3s](https://technotim.live/posts/k3s-etcd-ansible/)
 
@@ -36,19 +36,13 @@ There are so many great resources online, ranging from low-level, piece-by-piece
 
 4. [Install Helm](https://rpi4cluster.com/k3s/k3s-helm-arkade-setting/)
     
-    This one is easy.
     ```bash
     brew install helm
     ```
 
-4. [Set up Longhorn]()
+4. [Set up Longhorn](https://technotim.live/posts/longhorn-install/)
     
-    This tutorial was a bit tailored to setup with Rancher, but the [Longhorn install](https://longhorn.io/docs/1.5.3/deploy/install/install-with-kubectl/) was more than sufficient to wask through what is required. 
+    This tutorial was a bit tailored to setup with Rancher, so I preferred the [Longhorn install](https://longhorn.io/docs/1.5.3/deploy/install/install-with-kubectl/) that was more than sufficient to wask through what is required. 
 
-
-## My First Deployment :) 
-
-Mosquitto MQTT Broker
-
-```bash
-kubectl 
+5. Install HAProxy
+    See the HAProxy section [here](https://medium.com/geekculture/bare-metal-kubernetes-with-metallb-haproxy-longhorn-and-prometheus-370ccfffeba9)
